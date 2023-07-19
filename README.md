@@ -6,7 +6,7 @@ Internet Heroku is a web application hosted on Heroku that serves as a testing p
 
 The test suite covers two main scenarios:
 
-Broken Links: The test case checks for any broken links present on the Internet Heroku application. It ensures that all links are functional and lead to the expected destinations.
+<h6>Broken Links:</h6> The test case checks for any broken links present on the Internet Heroku application. It ensures that all links are functional and lead to the expected destinations.
 
 Uploading a File: This test case verifies the file upload functionality of the Internet Heroku application. It ensures that users can successfully upload files and receive appropriate feedback.
 
