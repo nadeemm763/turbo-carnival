@@ -6,9 +6,9 @@ Internet Heroku is a web application hosted on Heroku that serves as a testing p
 
 The test suite covers two main scenarios:
 
-<h6>Broken Links:</h6> The test case checks for any broken links present on the Internet Heroku application. It ensures that all links are functional and lead to the expected destinations.
+<h5>Broken Links:</h5> The test case checks for any broken links present on the Internet Heroku application. It ensures that all links are functional and lead to the expected destinations.
 
-Uploading a File: This test case verifies the file upload functionality of the Internet Heroku application. It ensures that users can successfully upload files and receive appropriate feedback.
+<h5>Uploading a File:</h5> This test case verifies the file upload functionality of the Internet Heroku application. It ensures that users can successfully upload files and receive appropriate feedback.
 
 
 <h3>Installation</h3>
@@ -22,7 +22,7 @@ npm install
 
 
 <h3>Test Execution</h3>
-To execute the automated test cases, use the following command:
+To execute the automated test cases, use the following command:<br>
 node_modules/.bin/cypress run --headed --browser chrome
 
 This command will trigger the Cypress test runner, which will open a browser window and run the test suite against the Internet Heroku application.
